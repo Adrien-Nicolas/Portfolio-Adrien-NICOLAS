@@ -1,6 +1,6 @@
 <template>
     <div class="Contat-container">
-        <h3>(Actually in test)</h3>
+        <h3>(Currently in test)</h3>
         <h1>Contact me</h1>
         <form @submit="submit" @reset="onReset">
             <div>
