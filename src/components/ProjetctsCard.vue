@@ -1,7 +1,6 @@
 <template>
 <div>
     <h1>Projects</h1>
-    <hr>
     <div class="main-container2" ref="main-container2">
         <div class="project-card" v-for="items in projects.ProjectsArray" :key="items">
             <h2>{{ items.Title }}</h2>
@@ -31,6 +30,9 @@ export default {
 
 <style scoped>
 
+    h1{
+        color: aliceblue;
+    }
     .main-container2{
         display: flex;
         justify-content: center;
@@ -39,9 +41,9 @@ export default {
     }
 
     .project-card{
+        min-width: 350px;
         margin: 10px;
         padding: 10px;
-        flex-wrap: 0 0 40%;
         background-color: #8DA9C4;
         border-radius: 25px;
         box-shadow: #999898 0px 3px 8px ;

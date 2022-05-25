@@ -35,6 +35,10 @@
                         Being currently in training specialized in computer science within the school of engineering CESI, I am at ease with the work in group as well as the relational contact. 
                         I consider myself open-minded, hard-working and diligent in everything I do. I adapt easily while being receptive
                     </p>
+                    
+                    <p>As I am passionate about electronics, project creation and new technology, my aim is to combine my
+                        skills in order to draw up a concrete project.
+                    </p>
                 </div>
                 <div class="tec-section">
                     <h1>Technologies studied</h1>
@@ -83,7 +87,7 @@ export default {
     .main-container{
         display: flex;
         flex-direction: row;
-        background-color: #13315C;
+        background-color: #071a2b;
         border-radius: 25px;
         width: 90%;
     }

@@ -27,7 +27,7 @@ export default {
 <style>
 body{
   margin: 0;
-  background-color: #EEF4ED;
+  background-image: url("assets/fondd.jpg");
 
 }
 
@@ -37,6 +37,5 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #EEF4ED;
 }
 </style>
