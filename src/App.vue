@@ -1,6 +1,5 @@
 <template>
 <div>
-  <First />
   <MainCard/>
   <ProjectsCard/>
   <Contact/>
@@ -8,7 +7,6 @@
 </template>
 
 <script>
-import First from './components/First.vue'
 import MainCard from './components/MainCard.vue'
 import ProjectsCard from './components/ProjetctsCard.vue'
 import Contact from './components/Contact.vue'
@@ -16,7 +14,6 @@ import Contact from './components/Contact.vue'
 export default {
   name: 'App',
   components: {
-    First,
     MainCard,
     ProjectsCard,
     Contact
