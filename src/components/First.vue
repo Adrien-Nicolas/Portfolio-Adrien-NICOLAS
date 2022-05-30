@@ -76,7 +76,7 @@ export default {
     .bg{
         filter: blur(4px);
         -webkit-filter: blur(4px);
-
+        background-image: url('../assets/pdp.jpg');
         /* Full height */
 
         /* Center and scale the image nicely */
