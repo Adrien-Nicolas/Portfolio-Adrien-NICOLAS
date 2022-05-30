@@ -74,7 +74,6 @@ export default {
 
 <style scoped>
     .bg{
-        background-image: url("../assets/pdp.jpg");
         filter: blur(4px);
         -webkit-filter: blur(4px);
 
