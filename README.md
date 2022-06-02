@@ -1,34 +1,3 @@
-# vue-portfolio
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### 
-
-### Portfolio
-
-Find my Portfolio Website here => https://adrien-nicolas.github.io/Portfolio-Adrien-NICOLAS/
-
 ### Features
 
 ## Cards
@@ -86,7 +55,8 @@ The image key is identical, and can therefore accommodate a base 64 or an access
 
 ## Type Writer 
 
-![2022-06-02 20-14-28](https://user-images.githubusercontent.com/73825898/171698741-a7507c6c-cda5-497e-ab3e-684bec153fd4.gif)
+![2022-06-02 20-14-28_Trim](https://user-images.githubusercontent.com/73825898/171699651-256b5015-42e0-494a-953b-883cba6659da.gif)
+
 
 It is also possible to customize the Type Writer at the top of the page. This one can host as many words to display in TypeWriter animation (no libraries used, only a js script has been made). 
 Indeed, an array of string characters is configurable in the file First.vue :
@@ -107,3 +77,31 @@ Indeed, an array of string characters is configurable in the file First.vue :
     };
 ```
 
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 
+
+### Portfolio
+
+Find my Portfolio Website here => https://adrien-nicolas.github.io/Portfolio-Adrien-NICOLAS/
