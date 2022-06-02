@@ -1,0 +1,100 @@
+<template>
+<div>
+    <h1>Experiences</h1>
+    <div class="main-container2" ref="main-container2">
+        <div class="project-card" v-for="items in experiences.ExperiencesArray" :key="items">
+            <h2>{{ items.Title }}</h2>
+            <h3>{{ items.Date }}</h3>
+            <h4>{{ items.Company }}</h4>
+            <div class="img-div" >
+                <img class="project-img" :src="items.Image" alt="">
+            </div>
+            <p>{{ items.About }}</p>
+            <div class="links">
+                <a :href="items.Link1" target="_blank"><img src="../assets/github.png" alt=""></a>
+                <a :href="items.Link2" target="_blank"><img src="../assets/link.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+</template>
+
+<script>
+import jsonDataXp from '../../experiences.json'
+export default {
+    data() {
+        return {
+            experiences: jsonDataXp
+        }
+    }
+}
+</script>
+
+<style scoped>
+
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 1.2em;
+        font: "Arimo";
+
+    }
+
+    h1{
+        color: aliceblue;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .main-container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .project-card{
+        min-width: 350px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #8DA9C4;
+        border-radius: 25px;
+        box-shadow: #999898 0px 3px 8px ;
+        width: 45%;
+        height: auto;
+
+    }
+
+    .project-card:hover{
+        box-shadow: #999898 0px 3px 8px ;
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .project-card img{
+        height: 10rem;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links img{
+        height: 1.5rem;
+        margin: 5px;
+    }
+    
+    .project-img{
+        border-radius: 25px;
+        height: 5rem;
+    
+    }
+
+    .img-div{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+    }
+</style>

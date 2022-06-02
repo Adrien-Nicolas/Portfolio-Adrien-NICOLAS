@@ -2,12 +2,14 @@
 <div>
   <First />
   <MainCard/>
+  <ExperiencesCard />
   <ProjectsCard/>
   <Contact/>
 </div>
 </template>
 
 <script>
+import ExperiencesCard from './components/ExperiencesCard.vue'
 import First from './components/First.vue'
 import MainCard from './components/MainCard.vue'
 import ProjectsCard from './components/ProjetctsCard.vue'
@@ -18,6 +20,7 @@ export default {
   components: {
     First,
     MainCard,
+    ExperiencesCard,
     ProjectsCard,
     Contact
   },
@@ -32,6 +35,8 @@ export default {
 body{
   margin: 0;
   background-image: url("assets/fondd.jpg");
+  background-attachment: fixed;
+  background-position: center;
 
 }
 

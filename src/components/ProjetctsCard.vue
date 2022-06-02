@@ -1,5 +1,6 @@
 <template>
 <div>
+    <br>
     <h1>Projects</h1>
     <div class="main-container2" ref="main-container2">
         <div class="project-card" v-for="items in projects.ProjectsArray" :key="items">
@@ -30,9 +31,19 @@ export default {
 
 <style scoped>
 
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 1.2em;
+        font: "Arimo";
+
+    }
+
     h1{
+        margin-top: 20px;
+        margin-bottom: 50px;
         color: aliceblue;
     }
+
     .main-container2{
         display: flex;
         justify-content: center;
