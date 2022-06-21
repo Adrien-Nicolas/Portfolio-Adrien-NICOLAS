@@ -56,7 +56,10 @@
                 </div>
                 <div class="button-container">
                     <div class="projects-button">
-                        <a href="https://github.com/Adrien-Nicolas?tab=repositories" target="_blank">My projects</a>
+                        <a href="https://github.com/Adrien-Nicolas?tab=repositories" target="_blank">My Projects</a>
+                    </div>
+                    <div class="projects-button">
+                        <a href="/Resume.pdf" download="Resume.pdf">My Resume</a>
                     </div>
                     
                 </div>
@@ -67,8 +70,8 @@
 
 <script type="text/javascript">
 export default {
-   
-}
+
+    }
 </script>
 
 <style scoped>
