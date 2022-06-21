@@ -59,7 +59,7 @@
                         <a href="https://github.com/Adrien-Nicolas?tab=repositories" target="_blank">My Projects</a>
                     </div>
                     <div class="projects-button">
-                        <a href="/Resume.pdf" download="Resume.pdf">My Resume</a>
+                        <a href="Resume.pdf" download="Resume.pdf">My Resume</a>
                     </div>
                     
                 </div>
