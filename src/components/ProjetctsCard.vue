@@ -6,7 +6,8 @@
         <div class="project-card" v-for="items in projects.ProjectsArray" :key="items">
             <h2>{{ items.Title }}</h2>
             <div class="img-div" >
-                <img class="project-img" :src="items.Image" alt="">
+                
+                <img class="project-img" :src="require('../assets/' + items.Image)" alt="">
             </div>
             <p >{{ items.About }}</p>
             <div class="links">
@@ -31,10 +32,19 @@ export default {
 
 <style scoped>
 
+    @font-face {
+    font-family: "Robot_Slab";
+    src: local("Robot_Slab"),
+    url(../fonts/Robot_Slab/RobotoSlab-Regular.ttf) format("truetype");
+    }
+
     p{
         color: rgb(0, 0, 0);
-        font-size: 1.2em;
-        font: "Arimo";
+        font-size: 1.1em;
+        font-family: "Robot_Slab";
+        text-align: justify;
+        text-justify: auto;
+        line-height: 1.4em;
 
     }
 

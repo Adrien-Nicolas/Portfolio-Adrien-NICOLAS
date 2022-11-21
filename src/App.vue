@@ -1,10 +1,12 @@
 <template>
 <div>
-  <First />
+  <First/>
   <MainCard/>
   <ExperiencesCard />
   <ProjectsCard/>
-  <Contact/>
+  <FooterComp/>
+
+
 </div>
 </template>
 
@@ -13,7 +15,7 @@ import ExperiencesCard from './components/ExperiencesCard.vue'
 import First from './components/First.vue'
 import MainCard from './components/MainCard.vue'
 import ProjectsCard from './components/ProjetctsCard.vue'
-import Contact from './components/Contact.vue'
+import FooterComp from './components/FooterComp.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,7 @@ export default {
     MainCard,
     ExperiencesCard,
     ProjectsCard,
-    Contact
+    FooterComp
   },
   meta: {
    title: "Adrien NICOLAS - Portfolio",

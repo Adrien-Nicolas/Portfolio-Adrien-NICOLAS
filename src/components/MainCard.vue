@@ -76,6 +76,23 @@ export default {
 
 <style scoped>
 
+    @font-face {
+    font-family: "montserrat";
+    src: local("montserrat"),
+    url(../fonts/Montserrat/Montserrat-SemiBold.ttf) format("truetype");
+    }
+
+    @font-face {
+    font-family: "Titillium";
+    src: local("Titillium"),
+    url(../fonts/Titillium/TitilliumWeb-SemiBold.ttf) format("truetype");
+    }
+
+    p {
+        font-family: "Titillium";   
+        font-size: 1.2rem;
+    }
+
     .wrapper{
         display: flex;
         justify-content: center;
@@ -136,7 +153,12 @@ export default {
     }
 
     .about-me{
-        text-align: left;
+        text-align: justify;
+        justify-content: auto;
+        margin: 2.5%;
+        font-family: "montserrat";
+
+
     }
 
     .logos img{
@@ -146,6 +168,7 @@ export default {
     .projects-button a{
         text-decoration: none;
         color: #e2eefd;
+        font-family: "Titillium";
     }
 
     .button-container{
