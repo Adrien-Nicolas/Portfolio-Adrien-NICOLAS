@@ -14,8 +14,12 @@
     "downloadjs": "^1.4.7",
     "emailjs-com": "^3.2.0",
     "http-client": "^4.3.1",
+    "install": "^0.13.0",
+    "npm": "^9.1.2",
     "typewriter-vue": "^0.5.19",
     "vue": "^3.2.13",
+    "vue-custom-scrollbar": "^1.4.4",
+    "vue-scrollbar": "^1.0.4",
     "vue-type-writer": "^0.2.1",
     "vue-typer": "^1.2.0"
   },

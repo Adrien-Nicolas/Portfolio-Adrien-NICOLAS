@@ -1,13 +1,13 @@
 <template>
-<div>
-  <First/>
-  <MainCard/>
-  <ExperiencesCard />
-  <ProjectsCard/>
-  <FooterComp/>
+  <div>
+    <First/>
+    <MainCard/>
+    <ExperiencesCard />
+    <ProjectsCard/>
+    <FooterComp/>
 
+  </div>
 
-</div>
 </template>
 
 <script>
@@ -39,6 +39,10 @@ body{
   background-image: url("assets/fondd.jpg");
   background-attachment: fixed;
   background-position: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+
 
 }
 
@@ -49,4 +53,8 @@ body{
   text-align: center;
   color: #2c3e50;
 }
+
+
+
+
 </style>

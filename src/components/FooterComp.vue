@@ -5,8 +5,9 @@
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
         </head>
-        
-        <body></body>
+        <body>
+            
+        </body>
         <footer>
             <div class="footer">
                 <div class="row">
@@ -40,9 +41,11 @@
 
 <style scoped>
 
-    body{
-    margin:0;   
-    overflow-x:hidden;
+    .body{
+        margin:0;   
+        overflow-y: scroll;
+        overflow-x: hidden;
+    
     }
 
     .footer{
