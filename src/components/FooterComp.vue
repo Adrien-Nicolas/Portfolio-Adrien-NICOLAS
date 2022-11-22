@@ -73,6 +73,7 @@
         font-size:0.8em;
         text-align: center;
 
+
     }
     }
 
@@ -93,6 +94,7 @@
     .footer .row ul li{
     display:inline-block;
     margin:0px 30px;
+    font-size: medium;
     }
 
     .footer .row a i{
@@ -112,6 +114,7 @@
         }
         .footer .row a i{
         margin:0% 3%;
+        
         }
     }
 

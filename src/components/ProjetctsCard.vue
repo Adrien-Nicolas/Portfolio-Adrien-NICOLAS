@@ -45,7 +45,8 @@ export default {
         text-align: justify;
         text-justify: auto;
         line-height: 1.4em;
-
+        margin: 3em;
+        border-radius: 2%;
     }
 
     h1{
