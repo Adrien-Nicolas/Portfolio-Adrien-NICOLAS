@@ -76,6 +76,7 @@ export default {
 
 <style scoped>
 
+
     @font-face {
     font-family: "montserrat";
     src: local("montserrat"),
@@ -87,6 +88,20 @@ export default {
     src: local("Titillium"),
     url(../fonts/Titillium/TitilliumWeb-SemiBold.ttf) format("truetype");
     }
+
+    @media (max-width: 600px) {
+    .container-two {
+        display: none;
+    }
+    }
+
+    @media (min-width: 601px) {
+    .container-two {
+        display: block;
+    }
+    }
+
+
 
     p {
         font-family: "Titillium";   
@@ -112,12 +127,26 @@ export default {
         width: 90%;
     }
 
+
+    @media (max-width: 600px) {
+    .container-one{
+        background-color: #8DA9C4;
+        padding: 2.5%;
+        width: 100%;
+        border-radius: 25px;
+
+    }
+    }   
+
+    @media (min-width: 601px) {
+
     .container-one{
         background-color: #8DA9C4;
         padding: 2.5%;
         width: 30%;
         border-radius: 25px;
 
+    }
     }
 
     .profile img{
@@ -126,6 +155,7 @@ export default {
     }
 
     .container-two{
+        
         background-color: #EEF4ED;
         margin: 2.5%;
         width: 70%;
