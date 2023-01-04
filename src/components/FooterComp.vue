@@ -103,7 +103,7 @@
     }
 
     @media (max-width:720px){
-        .footer{
+        .footer .row {
         text-align:left;
         padding:5%;
         }
