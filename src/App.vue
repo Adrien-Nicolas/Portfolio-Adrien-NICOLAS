@@ -4,8 +4,9 @@
     <MainCard/>
     <ExperiencesCard />
     <ProjectsCard/>
+    <SkillsCard/>
+    <EducationCard/>
     <FooterComp/>
-
   </div>
 
 </template>
@@ -15,6 +16,8 @@ import ExperiencesCard from './components/ExperiencesCard.vue'
 import First from './components/First.vue'
 import MainCard from './components/MainCard.vue'
 import ProjectsCard from './components/ProjetctsCard.vue'
+import SkillsCard from './components/SkillsCard.vue'
+import EducationCard from './components/EducationCard.vue'
 import FooterComp from './components/FooterComp.vue'
 
 export default {
@@ -24,8 +27,10 @@ export default {
     MainCard,
     ExperiencesCard,
     ProjectsCard,
+    SkillsCard,
+    EducationCard,  
     FooterComp
-  },
+},
   meta: {
    title: "Adrien NICOLAS - Portfolio",
    icon:"../tete2.png" 

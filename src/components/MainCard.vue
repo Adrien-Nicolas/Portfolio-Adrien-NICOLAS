@@ -40,20 +40,7 @@
                         skills in order to draw up a concrete project.
                     </p>
                 </div>
-                <div class="tec-section">
-                    <h1>Technologies studied</h1>
-                    <div class="logos">
-                        <img src="../assets/html-css-jquery-boostrap.png" alt="html/css/js">
-                        <img src="../assets/django.png" alt="django">
-                        <img src="../assets/python.png" alt="python">
-                        <img src="../assets/C.png" alt="C">
-                        <img src="../assets/arduino.png" alt="arduino">
-                        <img src="../assets/Csharp.png" alt="C#">
-                        <img src="../assets/gitlab.png" alt="gitlab">
-                        <img src="../assets/raspberry.png" alt="raspberry">
-                        <img src="../assets/vue.png" alt="vue">
-                    </div>
-                </div>
+                
                 <div class="button-container">
                     <div class="projects-button">
                         <a href="https://github.com/Adrien-Nicolas?tab=repositories" target="_blank">My Projects</a>
@@ -130,7 +117,7 @@ export default {
 
     @media (max-width: 600px) {
     .container-one{
-        background-color: #8DA9C4;
+        background-color: #85bdbf;
         padding: 2.5%;
         width: 100%;
         border-radius: 25px;
@@ -141,7 +128,7 @@ export default {
     @media (min-width: 601px) {
 
     .container-one{
-        background-color: #8DA9C4;
+        background-color: #6A8EAE;
         padding: 2.5%;
         width: 30%;
         border-radius: 25px;
@@ -156,7 +143,7 @@ export default {
 
     .container-two{
         
-        background-color: #EEF4ED;
+        background-color: #B7D5D4;
         margin: 2.5%;
         width: 70%;
         border-radius: 15px;
@@ -199,6 +186,7 @@ export default {
         text-decoration: none;
         color: #e2eefd;
         font-family: "Titillium";
+      
     }
 
     .button-container{
@@ -207,10 +195,11 @@ export default {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        padding: auto;
     }
 
     .projects-button{
-        background-color: #134c72;
+        background-color: #373E40;
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
@@ -221,7 +210,7 @@ export default {
         background-color: #425f72;
         color:#415563;
         transform: scale(1.1);
-        transition: all 0.5s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
 
 </style>

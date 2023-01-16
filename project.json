@@ -24,7 +24,14 @@
             "Link1":"https://github.com/Adrien-Nicolas/Django_API_public",
             "Link2":"https://github.com/Adrien-Nicolas/Django_API_public"
         },
-
+        {
+            "id":7,
+            "Title":"labyrinth generator",
+            "About": "A labyrinth generator based on a drew labyrinth with specific colors used. Based on computer vision and color detection.",
+            "Image": "laby_generateed.png",
+            "Link1": "https://github.com/Adrien-Nicolas/labyrinth-generator",
+            "Link2":"https://github.com/Adrien-Nicolas/labyrinth-generator"
+        },
         {
             "id":5,
             "Title":"Portfolio",
@@ -69,5 +76,6 @@
             "Link1":"https://github.com/Adrien-Nicolas/Arduino_project/tree/main/Distance_capteur",
             "Link2":"https://github.com/Adrien-Nicolas/Arduino_project/tree/main/Distance_capteur"
         }
+
     ]
 }

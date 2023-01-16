@@ -65,8 +65,8 @@
     
     }
 
- /* align .footer .row when format is phone */
     @media screen and (max-width: 600px) {
+
     .footer .row ul{
         width:100%;
         color:gray;
@@ -75,6 +75,11 @@
 
 
     }
+    .footer{
+            /**no scroll bar on x */
+            overflow-x: hidden;
+
+        }
     }
 
     .footer .row a{
@@ -103,13 +108,18 @@
     }
 
     @media (max-width:720px){
+        .footer{
+            /**no scroll bar on x */
+            overflow-x: hidden;
+
+        }
         .footer .row {
         text-align:left;
         padding:5%;
         }
         .footer .row ul li{
         display:block;
-        margin:10px 0px;
+        margin:0px 0px;
         text-align:left;
         }
         .footer .row a i{

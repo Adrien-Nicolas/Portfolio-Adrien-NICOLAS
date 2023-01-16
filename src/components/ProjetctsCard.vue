@@ -50,7 +50,7 @@ export default {
     }
 
     h1{
-        margin-top: 20px;
+        margin-top: 5%;
         margin-bottom: 50px;
         color: aliceblue;
     }
@@ -66,7 +66,7 @@ export default {
         min-width: 350px;
         margin: 10px;
         padding: 10px;
-        background-color: #8DA9C4;
+        background-color: #6A8EAE;
         border-radius: 25px;
         box-shadow: #999898 0px 3px 8px ;
         width: 30%;

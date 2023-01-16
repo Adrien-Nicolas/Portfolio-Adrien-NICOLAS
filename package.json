@@ -9,6 +9,7 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "@growthbunker/vuetimeline": "^0.1.17",
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
     "downloadjs": "^1.4.7",
@@ -16,12 +17,15 @@
     "http-client": "^4.3.1",
     "install": "^0.13.0",
     "npm": "^9.1.2",
+    "timeline-vuejs": "^1.1.7",
     "typewriter-vue": "^0.5.19",
     "vue": "^3.2.13",
     "vue-custom-scrollbar": "^1.4.4",
+    "vue-next-timeline": "^0.2.1",
     "vue-scrollbar": "^1.0.4",
     "vue-type-writer": "^0.2.1",
-    "vue-typer": "^1.2.0"
+    "vue-typer": "^1.2.0",
+    "vue-vertical-timeline": "^0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

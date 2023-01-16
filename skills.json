@@ -1,0 +1,45 @@
+{
+    "SkillsArray":
+    [
+        {
+            "id": 0,
+            "Title":"Python",
+            "Image":"python.png"
+        },
+        {
+            "id": 1,
+            "Title":"Django",
+            "Image":"django.png"
+        },
+        {
+            "id": 1,
+            "Title":"htmlcss",
+            "Image":"html-css-jquery-boostrap.png"
+        },
+        {
+            "id": 1,
+            "Title":"vue",
+            "Image":"vue.png"
+        },
+        {
+            "id": 4,
+            "Title":"C",
+            "Image":"C.png"
+        },
+        {
+            "id": 4,
+            "Title":"arduino",
+            "Image":"arduino.png"
+        },
+        {
+            "id": 4,
+            "Title":"raspberry",
+            "Image":"raspberry.png"
+        },
+        {
+            "id": 4,
+            "Title":"gitlab",
+            "Image":"gitlab.png"
+        }
+    ]
+}

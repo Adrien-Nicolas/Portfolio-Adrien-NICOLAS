@@ -1,0 +1,24 @@
+{
+    "EducationArray":[
+        {
+            "id":1,
+            "Title":"2nd year of Cesi graduate of computer science Engineering of computer science engineering (4th year/ 5 years)",
+            "Date":"September 2019-2024",
+            "Company":"Cesi Reims",
+            "Image":"deverminage.png"
+            
+
+        },
+        {
+            "id":2,
+            "Title":"Scientific degree with Engineering Science options",
+            "Date":"September 2018- July 2024",
+            "Company":"Franklin Roosevelt Reims",
+            "Image":"deverminage.png"
+            
+        }
+
+
+    ]
+
+}
