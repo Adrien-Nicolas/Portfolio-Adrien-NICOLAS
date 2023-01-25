@@ -117,7 +117,7 @@ export default {
 
     @media (max-width: 600px) {
     .container-one{
-        background-color: #85bdbf;
+        background-color: #6192b2;
         padding: 2.5%;
         width: 100%;
         border-radius: 25px;
@@ -128,7 +128,7 @@ export default {
     @media (min-width: 601px) {
 
     .container-one{
-        background-color: #6A8EAE;
+        background-color: #6192b2;
         padding: 2.5%;
         width: 30%;
         border-radius: 25px;
@@ -143,7 +143,7 @@ export default {
 
     .container-two{
         
-        background-color: #B7D5D4;
+        background-color: #cacaca;
         margin: 2.5%;
         width: 70%;
         border-radius: 15px;
@@ -157,6 +157,11 @@ export default {
     .container-two h1{
         display: flex;
         justify-content: center;
+        
+    }
+    .container-two h3{
+        color : #c3cfd2;
+        
     }
 
     .link a{

@@ -2,15 +2,16 @@
     "SkillsArray":
     [
         {
-            "id": 0,
-            "Title":"Python",
-            "Image":"python.png"
-        },
-        {
             "id": 1,
             "Title":"Django",
             "Image":"django.png"
         },
+        {
+            "id": 0,
+            "Title":"Python",
+            "Image":"python.png"
+        },
+
         {
             "id": 1,
             "Title":"htmlcss",

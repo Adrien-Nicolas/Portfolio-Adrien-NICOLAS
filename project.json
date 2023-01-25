@@ -8,14 +8,7 @@
             "Link1":"https://github.com/Adrien-Nicolas/Metal-Detector-signal-predicting",
             "Link2":"https://github.com/Adrien-Nicolas/Metal-Detector-signal-predicting"
         },
-        {
-            "id":1,
-            "Title":"EasySave",
-            "About":"EasySave application gives the user the possibility to move a quantity of important files to a destination that the user will have to select. The user will be free to select the source directory where files, folders and subfolders are stored.The user will also be able to choose two types of backup jobs (copying files from one directory to another).",
-            "Image":"easysave.png",
-            "Link1":"https://github.com/Adrien-Nicolas/Easy_Save",
-            "Link2":"https://github.com/Adrien-Nicolas/Easy_Save"
-        },
+
         {
             "id":4,
             "Title":"Django API",
@@ -23,6 +16,14 @@
             "Image":"django_api.png",
             "Link1":"https://github.com/Adrien-Nicolas/Django_API_public",
             "Link2":"https://github.com/Adrien-Nicolas/Django_API_public"
+        },
+        {
+            "id":1,
+            "Title":"EasySave",
+            "About":"EasySave application gives the user the possibility to move a quantity of important files to a destination that the user will have to select. The user will be free to select the source directory where files, folders and subfolders are stored.The user will also be able to choose two types of backup jobs (copying files from one directory to another).",
+            "Image":"easysave.png",
+            "Link1":"https://github.com/Adrien-Nicolas/Easy_Save",
+            "Link2":"https://github.com/Adrien-Nicolas/Easy_Save"
         },
         {
             "id":7,
