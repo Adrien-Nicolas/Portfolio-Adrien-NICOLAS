@@ -10,6 +10,31 @@
         },
 
         {
+            "id":7,
+            "Title":"Robotic Computer vision",
+            "About":"implementation of computer vision inside a robotic software to detect specifc shape or specific color. By using that, It will alow us to navigate inside a known environment.",
+            "Image":"color_detection.png",
+            "Link1":"",
+            "Link2":""
+        },
+        {
+            "id":4,
+            "Title":"Processing Points cloud from camera",
+            "About":"Point-cloud manipulation is a method used for map-ping and navigation in robotics. The advantage of this method lies in its ability to provide accurate 3D representations of environments, allowing robots to better understand and interact with their surroundings.",
+            "Image":"Process_filt.png",
+            "Link1":"https://github.com/Adrien-Nicolas/Point-cloud-processing-ROS",
+            "Link2":"https://github.com/Adrien-Nicolas/Point-cloud-processing-ROS"
+        },
+        {
+            "id":7,
+            "Title":"Labyrinth generator",
+            "About": "A labyrinth generator based on a drew labyrinth with specific colors used. Based on computer vision and color detection.",
+            "Image": "laby_generateed.png",
+            "Link1": "https://github.com/Adrien-Nicolas/labyrinth-generator",
+            "Link2":"https://github.com/Adrien-Nicolas/labyrinth-generator"
+        },
+
+        {
             "id":4,
             "Title":"Django API",
             "About":"With my classmates, and within the framework of a common project, it was necessary to create an api to exploit it later for an application.  This API aims to store user reviews about specific places like city stadiums or other sport places. This one is not accessible for the moment",
@@ -25,14 +50,7 @@
             "Link1":"https://github.com/Adrien-Nicolas/Easy_Save",
             "Link2":"https://github.com/Adrien-Nicolas/Easy_Save"
         },
-        {
-            "id":7,
-            "Title":"labyrinth generator",
-            "About": "A labyrinth generator based on a drew labyrinth with specific colors used. Based on computer vision and color detection.",
-            "Image": "laby_generateed.png",
-            "Link1": "https://github.com/Adrien-Nicolas/labyrinth-generator",
-            "Link2":"https://github.com/Adrien-Nicolas/labyrinth-generator"
-        },
+
         {
             "id":5,
             "Title":"Portfolio",
@@ -77,6 +95,7 @@
             "Link1":"https://github.com/Adrien-Nicolas/Arduino_project/tree/main/Distance_capteur",
             "Link2":"https://github.com/Adrien-Nicolas/Arduino_project/tree/main/Distance_capteur"
         }
+
 
     ]
 }

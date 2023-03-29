@@ -39,6 +39,7 @@ export default {
 </script>
 
 <style>
+
 body{
   margin: 0;
   background-image: url("assets/fondd.jpg");
@@ -46,9 +47,6 @@ body{
   background-position: center;
   overflow-y: scroll;
   overflow-x: hidden;
-
-
-
 }
 
 #app {

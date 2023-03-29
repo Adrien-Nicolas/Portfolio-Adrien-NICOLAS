@@ -6,13 +6,16 @@
         <div class="project-card" v-for="items in projects.ProjectsArray" :key="items">
             <h2>{{ items.Title }}</h2>
             <div class="img-div" >
-                
                 <img class="project-img" :src="require('../assets/' + items.Image)" alt="">
             </div>
             <p >{{ items.About }}</p>
             <div class="links">
+            <template v-if="items.Link1">
                 <a :href="items.Link1" target="_blank"><img src="../assets/github.png" alt=""></a>
+            </template>
+            <template v-if="items.Link2">
                 <a :href="items.Link2" target="_blank"><img src="../assets/link.png" alt=""></a>
+            </template>
             </div>
         </div>
     </div>
@@ -57,20 +60,20 @@ export default {
 
     .main-container2{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 10%;
+      margin: 0 auto
     }
 
     .project-card{
-        min-width: 350px;
-        margin: 10px;
+        min-width: 400px;
+        max-width: 30%;
+        margin: 20px;
         padding: 10px;
         background-color: #6A8EAE;
         border-radius: 25px;
-        box-shadow: #999898 0px 3px 8px ;
-        width: 30%;
-        height: auto;
 
     }
 
@@ -82,6 +85,7 @@ export default {
 
     .project-card img{
         height: 10rem;
+        
     }
 
     .links{
@@ -98,7 +102,7 @@ export default {
     
     .project-img{
         border-radius: 25px;
-        height: 5rem;
+        height: 50px;
     
     }
 
