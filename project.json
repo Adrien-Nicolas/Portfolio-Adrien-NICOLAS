@@ -2,6 +2,17 @@
     "ProjectsArray":[
         {
             "id": 0,
+            "Title":"Brander",
+            "About": "Brander is a brand style wizard that provides users with a comprehensive set of tools to create their own brand style. Brander leverages the latest advancements in artificial intelligence, specifically the ChatGPT API, to analyze data and suggest the best branding style options.",
+            "Image":"Brander.png",
+            "Link1":"https://github.com/Adrien-Nicolas/Brander",
+            "Link2":"https://www.youtube.com/watch?v=ZKgj-Enm63M",
+            "Skills":["python.png","vue.png","django.png"]
+
+        },
+
+        {
+            "id": 0,
             "Title":"Metal-Detector-signal-prediction",
             "About": "Predictive model applied to a metallic soil remediation framework and using inductive detection systems",
             "Image":"Kmeans.png",
@@ -14,7 +25,7 @@
         {
             "id":7,
             "Title":"Robotic Computer vision",
-            "About":"implementation of computer vision inside a robotic software to detect specifc shape or specific color. By using that, It will alow us to navigate inside a known environment.",
+            "About":"Implementation of computer vision inside a robotic software to detect specifc shape or specific color. By using that, It will alow us to navigate inside a known environment.",
             "Image":"color_detection.png",
             "Link1":"",
             "Link2":"",
@@ -49,6 +60,16 @@
             "Link1":"https://github.com/Adrien-Nicolas/Django_API_public",
             "Link2":"",
             "Skills":["python.png", "django.png"]
+        },
+        {
+            "id": 0,
+            "Title":"LeoAllnet Portfolio",
+            "About": "As part of a freelance mission, the artist Leoallnet gave me a project to create a portfolio to exhibit his arts. This revolves around his works, music and designs. The site is hosted and fully available, and is destined to evolve according to the progress of the artist. It is thus fully personalized, following a precise graphic charter",
+            "Image":"leo-allnet.png",
+            "Link1":"https://leoallnet.fr",
+            "Link2":"https://leoallnet.fr",
+            "Skills":["vue.png"]
+
         },
         {
             "id":1,

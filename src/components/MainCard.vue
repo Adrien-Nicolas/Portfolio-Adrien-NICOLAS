@@ -10,7 +10,7 @@
 
 As I am passionate about electronics, project creation and new technology, my aim is to combine my skills in order to draw up a concrete project.</p>
         <a href="#Projects" class="btn btn-primary btn-lg">Projects</a>
-        <a href="" class="btn btn-primary btn-lg">Resume</a>
+        <a href="./Resume.pdf" target="_blank" class="btn btn-primary btn-lg">Resume</a>
       </div>
     </div>
     </div>

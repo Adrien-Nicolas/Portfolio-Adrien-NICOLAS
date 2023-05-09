@@ -93,6 +93,15 @@ export default {
       }
     },
   },
+  mounted() {
+    // add click event listener to the navbar toggler
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    navbarToggler.addEventListener('click', () => {
+      // toggle the "show" class on the navbar collapse element
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      navbarCollapse.classList.toggle('show');
+    });
+  }
 };
 </script>
 
