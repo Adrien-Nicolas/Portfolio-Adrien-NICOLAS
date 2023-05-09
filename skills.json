@@ -39,8 +39,13 @@
         },
         {
             "id": 4,
-            "Title":"gitlab",
-            "Image":"gitlab.png"
+            "Title":"scikit",
+            "Image":"scikit.png"
+        },
+        {
+            "id": 4,
+            "Title":"opencv",
+            "Image":"opencv.png"
         }
     ]
 }

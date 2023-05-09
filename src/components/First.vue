@@ -1,5 +1,30 @@
 <template>
 <div>
+  <div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Adrien NICOLAS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Experiences">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </nav>
+</div>
+
     <div class="bg"></div>
         <div class="Content">
             <h1>
@@ -24,7 +49,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["Data scientist Junior", "Web developer", "Student" ],
+      displayTextArray: ["Junior Data scientist", "Web developer", "Student" ],
       typingSpeed: 100,
       erasingSpeed: 100,
       newTextDelay: 2000,
@@ -78,23 +103,20 @@ export default {
         -webkit-filter: blur(4px);
         background-image: url('../assets/pdp.jpg');
         /* Full height */
-
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 50px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 50px;
         border-radius: 25px;
         background-color: #092a46;
         color: #EEF4ED;
         height: 700px;
         max-height: 1000px;
-    
+        margin-bottom: 40px;
     }
     .Content{
         background-color: rgb(0,0,0); /* Fallback color */
@@ -108,7 +130,7 @@ export default {
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 1;
-        width: 40%;
+        width: 70%;
         padding: 20px;
         text-align: center;
     }
@@ -143,8 +165,8 @@ export default {
 }
 
 .profile img{
-
-        height: 150px;
+        position: center;
+        width: 150px;
         border-radius: 50%;
 
     }

@@ -9,7 +9,8 @@
             "Image":"deverminage.png",
             
             "Link1":"https://github.com/Adrien-Nicolas/Gestion_deverminage",
-            "Link2":""
+            "Link2":"",
+            "Skills":["arduino.png","html-css-jquery-boostrap.png"]
         },
         {
             "id":2,
@@ -19,7 +20,8 @@
             "Company":"RTE - Réseau de transport d'electricité",
             "Image":"RTE.png",
             "Link1":"",
-            "Link2":""
+            "Link2":"",
+            "Skills":["django.png","python.png","html-css-jquery-boostrap.png"]
         },
         {
             "id":3,
@@ -29,7 +31,9 @@
             "Company":"UTCN - Universitatea Tehnica Cluj-Napoca",
             "Image":"sim_robot.png",
             "Link1":"https://gitlab.com/clujteam/ws_ros1/-/tree/development",
-            "Link2":""
+            "Link2":"",
+            "Skills":["python.png","ROS.png","C.png"]
+
         }
 
     ]

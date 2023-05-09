@@ -1,132 +1,63 @@
 <template>
+    <header>
+        <link 
+            href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+            rel="stylesheet"  type='text/css'>
+    </header>
     <div>
-        <head>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
-        </head>
-        <body>
-            
-        </body>
-        <footer>
-            <div class="footer">
-                <div class="row">
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-                <div class="row">
-                    <ul>
-                        <li><a href="mailto:adrien.nicolas511@gmail.com?Subject=contacted from the portfolio">Contact me</a></li>
-                        <li><a href="https://github.com/Adrien-Nicolas?tab=repositories">My Projects</a></li>
-                        <li><a href="Resume.pdf">My Resume</a></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="row">
-                    Adrien NICOLAS, student at CESI engineering school
-                </div>
-            </div>
-        </footer>
+    <footer class="bg-dark text-light py-4">
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-auto">
+            <a href="https://www.linkedin.com/in/adrien-nicolas-3a84461b1/"><i class="fa fa-linkedin fa-lg text-light me-5 mb-3"></i></a>
+        </div>
+        <div class="col-auto">
+            <a href="https://github.com/Adrien-Nicolas?tab=repositories"><i class="fa fa-github fa-lg text-light me-5"></i></a>
+        </div>
+        <div class="col-auto">
+            <a href="mailto:adrien.nicolas511@gmail.com"><i class="fa fa-envelope fa-lg text-light me-2"></i></a>
+        </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+        <ul class="list-unstyled text-center">
+            <li class="me-lg-3"><a href="mailto:adrien.nicolas511@gmail.com" class="text-light">Contact me</a></li>
+            <li class="me-lg-3"><a href="https://github.com/Adrien-Nicolas?tab=repositories" class="text-light">My Projects</a></li>
+            <li class="me-lg-3"><a href="#About" class="text-light">About me</a></li>
+        </ul>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+            <p>Adrien NICOLAS, Student at Cesi, IT engineering school</p>
+            <p>© 2023 Adrien NICOLAS</p>
+        </div>
+        </div>
+  </div>
+</footer>
+
     </div>
-</template>
+  </template>
+  
 
+<script>
+export default {
 
-<script type="text/javascript">
-    export default {
-
-        }
+}
 </script>
-
 
 <style scoped>
 
-    .body{
-        margin:0;   
-        overflow-y: scroll;
-        overflow-x: hidden;
-    
-    }
-
-    .footer{
-    background:#000;
-    padding:30px 0px;
-    font-family: 'Play', sans-serif;
-    text-align:center;
-    }
-
-    .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:gray;
-    font-size:0.8em;
-    text-align: center;
-    
-    }
-
-    @media screen and (max-width: 600px) {
-
-    .footer .row ul{
-        width:100%;
-        color:gray;
-        font-size:0.8em;
-        text-align: center;
 
 
-    }
-    .footer{
-            /**no scroll bar on x */
-            overflow-x: hidden;
+p,li {
+    font-family: 'Auxhie';
+    text-decoration: none;
+}
 
-        }
-    }
+.fa-facebook, .fa-instagram {
+  transition: color 0.2s;
+}
 
-    .footer .row a{
-    text-decoration:none;
-    color:gray;
-    transition:0.5s;
-    }
-
-    .footer .row a:hover{
-    color:#fff;
-    }
-
-    .footer .row ul{
-    width:100%;
-    }
-
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    font-size: medium;
-    }
-
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-
-    @media (max-width:720px){
-        .footer{
-            /**no scroll bar on x */
-            overflow-x: hidden;
-
-        }
-        .footer .row {
-        text-align:left;
-        padding:5%;
-        }
-        .footer .row ul li{
-        display:block;
-        margin:0px 0px;
-        text-align:left;
-        }
-        .footer .row a i{
-        margin:0% 3%;
-        
-        }
-    }
-
+.fa-facebook:hover, .fa-instagram:hover {
+  color: white;
+}
 </style>
-

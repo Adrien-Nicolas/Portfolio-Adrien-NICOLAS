@@ -1,116 +1,142 @@
 <template>
-<div>
-    <h1>Experiences</h1>
-    <div class="main-container2" ref="main-container2">
-        <div class="project-card" v-for="items in experiences.ExperiencesArray" :key="items">
-            <h2>{{ items.Title }}</h2>
-            <h3>{{ items.Date }}</h3>
-            <h4>{{ items.Company }}</h4>
-            <div class="img-div" >
-                <img class="project-img" :src="require('../assets/' + items.Image)"  alt="">
-            </div>
-            <p>{{ items.About }}</p>
-            <div class="links">
-                <a :href="items.Link1" target="_blank"><img src="../assets/github.png" alt=""></a>
-                <a :href="items.Link2" target="_blank"><img src="../assets/link.png" alt=""></a>
+    <div id="Experiences">
+        <br>
+        <h1 class="text-center mb-5">Experiences</h1>
+        <hr>
+        <br>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4" v-for="items in experiences.ExperiencesArray" :key="items">
+                    <a :href="items.Link1" target="_blank"><div class="card shadow h-100">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">{{ items.Title }}</h2>
+                            <h3 class="card-title text-center date">{{ items.Date }}</h3>
+                            <h4 class="card-title text-center date">{{ items.Company }}</h4>
+                            <div class="img-div d-flex justify-content-center">
+                                <img class="card-img-top" :src="require(`../assets/${items.Image}`)" alt="">
+                            </div>
+                            <p class="card-text text-center about">{{ items.About }}</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <template v-for="skill in items.Skills" :key="skill">
+                                        <img :src="require(`../assets/${skill}`)" alt="">
+                                    </template>
+                                </div>
+                                <div class="item">
+                                    <template v-if="items.Link1">
+                                        <a :href="items.Link1" target="_blank"><img src="../assets/github.png" alt=""></a>
+                                    </template>
+                                    <template v-if="items.Link2">
+                                        <a :href="items.Link2" target="_blank"><img src="../assets/link.png" alt=""></a>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+                    </div></a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </template>
 
+
 <script>
-
-
 import jsonDataXp from '../../experiences.json'
 
-
 export default {
-    data() {
-        return {
-            experiences: jsonDataXp
-        }
+  data() {
+    return {
+      experiences: jsonDataXp
     }
+  }
 }
 </script>
 
 <style scoped>
 
 
-    @font-face {
-    font-family: "Robot_Slab";
-    src: local("Robot_Slab"),
-    url(../fonts/Robot_Slab/RobotoSlab-Regular.ttf) format("truetype");
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+    background-color:rgb(221, 234, 246) ;
+  }
+
+
+hr{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 50%;
+    position: center;
+    margin: auto;
+}
+
+h3 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
     }
 
-
+    h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+    .card-footer img {
+        height: 1.5rem;
+        margin: 5px;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    @font-face {
+        font-family: "Robot_Slab";
+        src: local("Robot_Slab"),
+        url(../fonts/Robot_Slab/RobotoSlab-Regular.ttf) format("truetype");
+    }
+    
     p{
         color: rgb(0, 0, 0);
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-family: "Robot_Slab";
         text-align: justify;
         text-justify: auto;
         line-height: 1.4em;
-        margin: 3em;
-
+        border-radius: 2%;
+        margin: 20px;
     }
-
-    h1{
-        color: aliceblue;
-        margin-top: 5%;
-        margin-bottom: 50px;
-    }
-    .main-container2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .project-card{
-        min-width: 350px;
-        margin: 10px;
-        padding: 10px;
-        background-color: #6A8EAE;
+    
+    .card {
         border-radius: 25px;
-        box-shadow: #999898 0px 3px 8px ;
-        width: 45%;
+        height: 100%;
+    }
+    
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .card-text {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    
+    .img-div img {
         height: auto;
-
+        border-radius: 25px;
     }
-
-    .project-card:hover{
-        box-shadow: #999898 0px 3px 8px ;
-        transform: scale(1.05);
-        transition: all 0.2s ease-in-out;
-    }
-
-    .project-card img{
-        height: 10rem;
-    }
-
-    .links{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-    }
-
-    .links img{
+    
+    .card-footer img {
         height: 1.5rem;
         margin: 5px;
     }
-    
-    .project-img{
-        border-radius: 25px;
-        height: 5rem;
-    
-    }
 
-    .img-div{
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        
-    }
 </style>

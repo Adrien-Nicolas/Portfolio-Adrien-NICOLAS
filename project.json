@@ -6,7 +6,9 @@
             "About": "Predictive model applied to a metallic soil remediation framework and using inductive detection systems",
             "Image":"Kmeans.png",
             "Link1":"https://github.com/Adrien-Nicolas/Metal-Detector-signal-predicting",
-            "Link2":"https://github.com/Adrien-Nicolas/Metal-Detector-signal-predicting"
+            "Link2":"",
+            "Skills":["python.png","scikit.png"]
+
         },
 
         {
@@ -15,7 +17,9 @@
             "About":"implementation of computer vision inside a robotic software to detect specifc shape or specific color. By using that, It will alow us to navigate inside a known environment.",
             "Image":"color_detection.png",
             "Link1":"",
-            "Link2":""
+            "Link2":"",
+            "Skills":["python.png", "ROS.png", "C.png","opencv.png"]
+
         },
         {
             "id":4,
@@ -23,7 +27,8 @@
             "About":"Point-cloud manipulation is a method used for map-ping and navigation in robotics. The advantage of this method lies in its ability to provide accurate 3D representations of environments, allowing robots to better understand and interact with their surroundings.",
             "Image":"Process_filt.png",
             "Link1":"https://github.com/Adrien-Nicolas/Point-cloud-processing-ROS",
-            "Link2":"https://github.com/Adrien-Nicolas/Point-cloud-processing-ROS"
+            "Link2":"",
+            "Skills":["python.png", "ROS.png", "C.png","scikit.png"]
         },
         {
             "id":7,
@@ -31,7 +36,9 @@
             "About": "A labyrinth generator based on a drew labyrinth with specific colors used. Based on computer vision and color detection.",
             "Image": "laby_generateed.png",
             "Link1": "https://github.com/Adrien-Nicolas/labyrinth-generator",
-            "Link2":"https://github.com/Adrien-Nicolas/labyrinth-generator"
+            "Link2":"",
+            "Skills":["python.png","opencv.png"]
+            
         },
 
         {
@@ -40,7 +47,8 @@
             "About":"With my classmates, and within the framework of a common project, it was necessary to create an api to exploit it later for an application.  This API aims to store user reviews about specific places like city stadiums or other sport places. This one is not accessible for the moment",
             "Image":"django_api.png",
             "Link1":"https://github.com/Adrien-Nicolas/Django_API_public",
-            "Link2":"https://github.com/Adrien-Nicolas/Django_API_public"
+            "Link2":"",
+            "Skills":["python.png", "django.png"]
         },
         {
             "id":1,
@@ -48,7 +56,8 @@
             "About":"EasySave application gives the user the possibility to move a quantity of important files to a destination that the user will have to select. The user will be free to select the source directory where files, folders and subfolders are stored.The user will also be able to choose two types of backup jobs (copying files from one directory to another).",
             "Image":"easysave.png",
             "Link1":"https://github.com/Adrien-Nicolas/Easy_Save",
-            "Link2":"https://github.com/Adrien-Nicolas/Easy_Save"
+            "Link2":"",
+            "Skills":["Csharp.png"]
         },
 
         {
@@ -57,7 +66,9 @@
             "About":"Wanting to learn the vuejs framework, I decided to create my portfolio in this technology. I was able to learn the general organization of the framekork as well as the structure that the files must have",
             "Image":"portfolio.png",
             "Link1":"https://github.com/Adrien-Nicolas/Portfolio-Adrien-NICOLAS",
-            "Link2":"https://adrien-nicolas.github.io/Portfolio-Adrien-NICOLAS/"
+            "Link2":"https://adrien-nicolas.github.io/Portfolio-Adrien-NICOLAS/",
+            "Skills":["vue.png"]
+
         },
         {
             "id":4,
@@ -65,7 +76,8 @@
             "About":"I like the raspberry technologies and all features with. I've got a dog, and my problem was what he's doing when i was absent. To answer that, I made a surveillance camera, and a script to diffuse the camera feed on a specific and secure IP adress. All you had to do was connect to the address, and see the live camera feed",
             "Image":"live_cam.jpg",
             "Link1":"https://github.com/Adrien-Nicolas/Raspberry_camera",
-            "Link2":"https://github.com/Adrien-Nicolas/Raspberry_camera"
+            "Link2":"",
+            "Skills":["python.png", "raspberry.png"]
         },
         {
             "id":3,
@@ -73,7 +85,8 @@
             "About":"About my past project, I am interested in the astronomy domain. I bought a telescope to see stars, but I have encountered a problem : When I was observing the stars in my telescope, they were moving with the rotation of the earth. So I studied and modeled a project called 'Equatorial Platform'. This one, through its movement, and with the inclination equal to my latitude, allowed to follow the rotation of the earth. ",
             "Image":"table_eq.gif",
             "Link1":"https://github.com/Adrien-Nicolas/Arduino_project/tree/main/Table_eq",
-            "Link2":"https://youtube.com/playlist?list=PLCMnQuXAYBkkKPMV1kw8L9sKjakr7yGWj"
+            "Link2":"https://youtube.com/playlist?list=PLCMnQuXAYBkkKPMV1kw8L9sKjakr7yGWj",
+            "Skills":["arduino.png"]
         },
         {
             "id":2,
@@ -85,7 +98,9 @@
             "Link_video":[
                 "https://youtu.be/HdFJwroldXc",
                 "https://youtu.be/nPEGyFN6IUg"
-            ]
+            ],
+            "Skills":["arduino.png"]
+
         },
         {
             "id":6,
@@ -93,7 +108,9 @@
             "About":"The distance sensor project came from a rather original idea: Can we warn motorists that a collision may happen and warn them just before it happens in order to be able to mitigate it? To answer this question I wanted to do a little experiment. I therefore equipped myself with an ultrasonic sensor to calculate a distance from a surface, and I therefore calculated the speed of this surface approaching the sensor in order to be able to estimate the time remaining before the collision, and display a message alert.",
             "Image":"distance_sensor.png",
             "Link1":"https://github.com/Adrien-Nicolas/Arduino_project/tree/main/Distance_capteur",
-            "Link2":"https://github.com/Adrien-Nicolas/Arduino_project/tree/main/Distance_capteur"
+            "Link2":"",
+            "Skills":["arduino.png"]
+
         }
 
 
