@@ -36,8 +36,8 @@
   
   <style scoped>
   img {
-    width: 30%;
-    height: auto;
+    max-width: 90px;
+    border-radius: 10%;
   }
   hr {
     border: 5px solid white;

@@ -109,13 +109,15 @@ hr{
     }
     
     .img-div img {
-        height: auto;
-        border-radius: 25px;
+        max-width: 250px;
+        border-radius: 10%;
     }
     
     .card-footer img {
         height: 1.5rem;
         margin: 5px;
     }
+
+
     </style>
     
