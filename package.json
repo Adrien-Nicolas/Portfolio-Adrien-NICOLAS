@@ -10,24 +10,31 @@
   },
   "dependencies": {
     "@growthbunker/vuetimeline": "^0.1.17",
+    "@splidejs/vue-splide": "^0.6.12",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.3",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
     "downloadjs": "^1.4.7",
     "emailjs-com": "^3.2.0",
+    "gitart-scroll-carousel": "^1.2.4",
+    "gitart-vue-dialog": "^3.0.2",
     "http-client": "^4.3.1",
     "install": "^0.13.0",
     "npm": "^9.1.2",
+    "swiper": "^9.3.1",
     "timeline-vuejs": "^1.1.7",
     "typewriter-vue": "^0.5.19",
     "vue": "^3.2.13",
     "vue-custom-scrollbar": "^1.4.4",
+    "vue-glide-js": "^1.3.14",
     "vue-next-timeline": "^0.2.1",
     "vue-scrollbar": "^1.0.4",
+    "vue-ssr-carousel": "^2.2.0",
     "vue-type-writer": "^0.2.1",
     "vue-typer": "^1.2.0",
-    "vue-vertical-timeline": "^0.1.0"
+    "vue-vertical-timeline": "^0.1.0",
+    "vue3-carousel": "^0.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -37,7 +44,8 @@
     "@vue/cli-service": "^5.0.8",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "vue-concise-slider": "^4.2.5"
   },
   "eslintConfig": {
     "root": true,

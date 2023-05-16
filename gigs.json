@@ -1,0 +1,51 @@
+{
+"GigArray":[
+    {
+        "id":1,
+        "title":"I will develop AI tools for specific service",
+        "description":"With AI Suite, businesses can save time and money by automating repetitive tasks, improving accuracy and efficiency, and gaining insights from their data that would otherwise be difficult or impossible to obtain.",
+        "image":"Brander.png",
+        
+        "link":"https://fr.fiverr.com/s/gPZWAa",
+        "Price":"Starting from 67.25$" 
+    },
+    {
+        "id":2,
+        "title":"I will do create your own showcase website and portfolio",
+        "description":"With my service, you can expect a customized and professional-looking website that is tailored to your specific needs and preferences. Whether you are an artist, a photographer, a musician, or a business owner, I can help you create a website that highlights your strengths and attracts potential clients.",
+        "image":"leo-allnet.png",
+        
+        "link":"https://fr.fiverr.com/s/D9318A",
+        "Price":"Starting from 60$"
+    },
+    {
+        "id":3,
+        "title":"I will do analyse your full dataset",
+        "description":"The idea is to find correlations between different parameters of your data, and to present them to you in the form of representative graphs (Power BI, Tableau) and a draft of eventual predictions according to your needs.",
+        "image":"Kmeans.png",
+        
+        "link":"https://fr.fiverr.com/s/avZqQp",
+        "Price":"Starting from 30$"
+    },
+    {
+        "id":4,
+        "title":"I will provide you accurate predictive analysis of your data",
+        "description":"Are you looking for a data scientist to help with data preparation, analysis, and prediction models? Look no further! With my expertise in statistical analysis and machine learning, I can help you make sense of your data and make informed decisions.",
+        "image":"corr.png",
+        
+        "link":"https://fr.fiverr.com/s/QvL1e6",
+        "Price":"Starting from 40$"
+    },
+    {
+        "id":5,
+        "title":"I will create all your graphic identity",
+        "description":"Are you looking to establish a strong brand identity that resonates with your audience and sets you apart from your competitors? Look no further than our Brand Style Mission packages!",
+        "image":"graphic.png",
+        
+        "link":"https://fr.fiverr.com/s/PXe1PL",
+        "Price":"Starting from 30$"
+    }
+
+
+]
+}

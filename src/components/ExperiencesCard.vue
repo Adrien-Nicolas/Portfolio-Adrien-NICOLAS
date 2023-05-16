@@ -1,8 +1,11 @@
 <template>
-    <div id="Experiences">
+    <div class="bg">
+        
+        <hr>
         <br>
         <h1 class="text-center mb-5">Experiences</h1>
         <hr>
+        <div id="Experiences">
         <br>
         <div class="container">
             <div class="row justify-content-center">
@@ -39,6 +42,7 @@
             </div>
         </div>
     </div>
+    </div>
 </template>
 
 
@@ -56,6 +60,17 @@ export default {
 
 <style scoped>
 
+
+.bg{
+    background-color: rgb(21, 50, 75);
+
+}
+
+#Experiences{
+    background-color: rgb(21, 50, 75);
+
+
+}
 
 a{
     text-decoration: none;

@@ -1,7 +1,9 @@
 <template>
-    <div>
-      <h1 class="text-center my-5">Skills</h1>
-      <hr class="w-50 mx-auto mb-5">
+  <div class="bg">
+    <hr>
+    <h1 class="text-center mb-5">Skills</h1>
+    <hr>
+      <div id="Skills">
       <div class="container">
         <div class="row justify-content-center">
           <div
@@ -12,13 +14,14 @@
             <div class="card shadow h-100">
               <div class="card-body">
                 <div class="img-div d-flex justify-content-center">
-                  <img :src="require(`../assets/${item.Image}`)" alt="" class="card-img-top">
+                  <img :src="require(`../assets/${item.Image}`)" alt="" class="card-img-  ">
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </template>
   
@@ -35,9 +38,24 @@
   </script>
   
   <style scoped>
+
+hr{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 50%;
+    position: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+  .bg{
+    background-color: rgb(21, 50, 75);
+
+  }
+
   img {
     max-width: 90px;
-    border-radius: 10%;
+    background-color: transparent;
   }
   hr {
     border: 5px solid white;
@@ -56,9 +74,5 @@
     background-color: transparent;
   }
   
-  .card {
-    background-color: transparent;
-    border: none;
-  }
 
   </style>

@@ -1,43 +1,49 @@
 <template>
-    <div id="Projects">
-        <br>
-        <h1 class="text-center mb-5">Projects</h1>
-        <hr>
-        <br>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 mb-4" v-for="items in projects.ProjectsArray" :key="items">
-                    <a :href="items.Link1" target="_blank"><div class="card shadow h-100">
-                        <div class="card-body">
-                            <h2 class="card-title text-center">{{ items.Title }}</h2>
-                            <div class="img-div d-flex justify-content-center">
-                               <img class="card-img-top" :src="require(`../assets/${items.Image}`)" alt="">
-                            </div>
-                            <p class="card-text text-center">{{ items.About }}</p>
-                        </div>
-                        <div class="card-footer">
-                            <div class="d-flex justify-content-between">
-                                <div class="d-flex">
-                                    <template v-for="skill in items.Skills" :key="skill">
-                                        <img :src="require(`../assets/${skill}`)" alt="">
-                                    </template>
-                                </div>
-                                <div class="item">
-                                    <template v-if="items.Link1">
-                                        <a :href="items.Link1" target="_blank"><img src="../assets/github.png" alt=""></a>
-                                    </template>
-                                    <template v-if="items.Link2">
-                                        <a :href="items.Link2" target="_blank"><img src="../assets/link.png" alt=""></a>
-                                    </template>
-                                </div>
-                            </div>
-                        </div>
-                    </div></a>
+<div class="bg">
+  <hr>
+  <br>
+  <h1 class="text-center mb-5">Projects</h1>
+  <hr>
+  <div id="Projects">
+    <br>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 mb-4" v-for="items in projects.ProjectsArray" :key="items">
+          <a :href="items.Link1" target="_blank">
+            <div class="card shadow h-100">
+              <div class="card-body">
+                <h2 class="card-title text-center">{{ items.Title }}</h2>
+                <div class="img-div d-flex justify-content-center">
+                  <img class="card-img-top" :src="require(`../assets/${items.Image}`)" alt="">
                 </div>
+                <p class="card-text text-center">{{ items.About }}</p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-wrap"> <!-- Modified class -->
+                    <template v-for="skill in items.Skills" :key="skill">
+                      <img :src="require(`../assets/${skill}`)" alt="">
+                    </template>
+                  </div>
+                  <div class="item">
+                    <template v-if="items.Link1">
+                      <a :href="items.Link1" target="_blank"><img src="../assets/github.png" alt=""></a>
+                    </template>
+                    <template v-if="items.Link2">
+                      <a :href="items.Link2" target="_blank"><img src="../assets/link.png" alt=""></a>
+                    </template>
+                  </div>
+                </div>
+              </div>
             </div>
+          </a>
         </div>
+      </div>
     </div>
-    </template>
+  </div>
+  </div>
+</template>
+
     
     <script>
     import jsonData from '../../project.json'
@@ -51,6 +57,12 @@
     </script>
     
     <style scoped>
+
+.bg{
+    background-color: rgb(40, 70, 82);
+}
+
+
 
 a{
     text-decoration: none;

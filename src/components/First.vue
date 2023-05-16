@@ -18,6 +18,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#Projects">Projects</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Gigs">Gigs</a>
+          </li>
         </ul>
 
 
@@ -120,12 +123,10 @@ export default {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        border-radius: 25px;
         background-color: #092a46;
         color: #EEF4ED;
-        height: 700px;
-        max-height: 1000px;
-        margin-bottom: 40px;
+        height: 1080px;
+        max-height: 1080px;
     }
     .Content{
         background-color: rgb(0,0,0); /* Fallback color */
