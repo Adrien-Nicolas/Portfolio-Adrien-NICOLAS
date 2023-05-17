@@ -26,6 +26,7 @@
     "timeline-vuejs": "^1.1.7",
     "typewriter-vue": "^0.5.19",
     "vue": "^3.2.13",
+    "vue-analytics": "^5.22.1",
     "vue-custom-scrollbar": "^1.4.4",
     "vue-glide-js": "^1.3.14",
     "vue-next-timeline": "^0.2.1",
