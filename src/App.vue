@@ -1,5 +1,6 @@
 <template>
   <div class="bg">
+
     <First/>
     <MainCard/>
     <ExperiencesCard />

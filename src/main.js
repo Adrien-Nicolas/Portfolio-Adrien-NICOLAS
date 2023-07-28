@@ -2,7 +2,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 createApp(App).mount('#app')
 import VueSplide from '@splidejs/vue-splide';
-import VueGtag from "vue-gtag";
+import Progress from 'vue-progress-scroll'
+
 
 
 
@@ -12,9 +13,11 @@ import vuetimeline from "@growthbunker/vuetimeline"
 createApp.use(vuetimeline, VueSplide);
 
 createApp.use(VueSplide);
-createApp.use(VueGtag, {
-    config: { id: "G-9N0ZMNFFVP" }
-  });
+createApp.use(Progress);
+new createApp({
+  el: '#app',
+  render: h => h(App)
+})
 
 createApp.mount('#app')
 
